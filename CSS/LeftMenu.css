@@ -1,0 +1,180 @@
+﻿.RHSAccordion .level1 a
+{
+     text-transform:capitalize;
+     border:0px solid;
+     padding-top:3px;
+}
+.RHSAccordion
+{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #c2c2c2;
+    border: 1px solid #797979;
+    margin-right:-1.2px;
+    border-top:none !important;
+}
+
+.RHSAccordion .level1 a.trigger
+{
+    margin-left: 3px;
+    text-indent: 15px;
+    background-image: url(../gif/arr-close.png);
+    background-repeat: no-repeat;
+    background-position: 1px 40%;
+    min-height: 23px;
+   
+   /* padding-top: 4px;*/
+    text-decoration: none;
+    outline: 0;
+    padding-left: 30px;
+    color: #424242;
+}
+
+
+.RHSAccordion .level1 a.trigger:hover
+{
+     color: #c32230;
+}
+
+.RHSAccordion .level1 a.trigger.open
+{
+    background-image: url(../gif/arr-open.png);
+    border-bottom: 1px solid #F3F3F3;
+    
+}
+
+.RHSAccordion .level1.last-child a.trigger
+{
+    background-image: url("../gif/arr-close.png");
+    background-position: left 9px;
+    background-repeat: no-repeat;
+    border: 0 solid #e81e2a;
+    line-height: 24px;
+    padding-bottom: 2px;
+    padding-left: 45px;
+    padding-top: 1px;
+    text-indent: -1px;
+}
+.RHSAccordion .level1.last-child a.trigger.open
+{
+    background-image: url(../gif/arr-level-current.png);
+    color: #c32230;    
+}
+.RHSAccordion .level2
+{    
+    border-top: 0px solid #c2c2c2;
+background-color:#f3f3f3;
+margin-left:1px;
+margin-top:-1px;
+margin-bottom:-2px;
+
+}
+.RHSAccordion .level2 a.trigger
+{
+    margin-left: 0px;
+    text-indent: 15px;
+    background-image: url(../gif/sub-arr-close.png);
+    background-repeat: no-repeat;
+    background-position: 1px 50%;
+    border: solid 0px #e81e2a;
+    min-height: 29px;
+    padding-top: 4px;
+    text-decoration: none;
+    color: #9A9A9A;
+    padding-left: 0px;
+    color: #424242;
+    padding-right:10%;
+}
+.RHSAccordion .level2 a.trigger.open
+{
+    background-image: url(../gif/sub-arr-open.png);
+}
+.RHSAccordion .level2 .last-child a.trigger
+{
+    background-image: url(../gif/sub-arr-close.png);
+    background-repeat: no-repeat;
+    background-position: 1px 10px;
+    border: solid 0px #0067B1;
+    padding-left:72px;
+    text-indent:-1.4px;
+    line-height:18px !important;
+    padding-bottom:7px !important;
+    min-height:19px !important;
+    padding-top:5px;
+   
+    
+}
+.RHSAccordion .level2 .last-child a.trigger.open
+{
+    background-image: url(../gif/sub-arr-open.png);
+    color: #c32230;
+}
+
+.RHSAccordion .level3 a.trigger
+{
+    margin-left: 30px;
+    text-indent: 15px;
+    background-image: url(../gif/menu-Close.html);
+    background-repeat: no-repeat;
+    background-position: 1px 50%;
+    border: solid 0px yellow;
+    height: 29px;
+    padding-top: 4px;
+    text-decoration: none;
+}
+.RHSAccordion .level3 a.trigger.open
+{
+    background-image: url(../gif/menu-open.html);
+}
+.RHSAccordion .level3 .last-child a.trigger
+{
+    background-image: url(../gif/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 1px 50%;
+    border: solid 0px #e81e2a;
+}
+.RHSAccordion .level3 .last-child a.trigger.open
+{
+    background-image: url(../gif/arrow.png);
+    color: #0067B1;
+}
+
+.RHSAccordion a.trigger:hover
+{
+    color: #666666;
+}
+
+
+.RHSAccordion .level4 a.trigger
+{
+    margin-left: 40px;
+    text-indent: 15px;
+    background-image: url(../gif/menu-Close.html);
+    background-repeat: no-repeat;
+    background-position: 1px 50%;
+    border: solid 0px green;
+    height: 29px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+
+
+.RHSAccordion li
+{
+    list-style-type: none;    
+    border-bottom: 1px solid #F3F3F3;    
+    /*line-height: 25px;*/
+    padding-bottom:2px;
+}
+
+
+.RHSAccordion ul
+{
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.RHSAccordion li ul.level2 li{border-bottom:1px solid #eee;}
+
+.highlightcurrentcategory{ color: #c32230 !important;}
